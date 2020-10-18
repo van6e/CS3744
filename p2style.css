@@ -1,0 +1,128 @@
+/** ----------WHOLE PAGE------------ */
+/** Sets margin of all elements to 0 */
+* {
+  margin: 0;
+  background-color: #fbf5f3;
+}
+
+html, body {
+  height: 100%;
+}
+
+/* Creates gap between content and page border, sets text color */
+section {
+  padding-left: 15px;
+  padding-right: 15px;
+  color: #0a122a;
+}
+
+/* -----------HEADER AND NAV MENU--------------- */
+/* Creates a fixed banner at the top of the page */
+h1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-family: "Gill Sans";
+  text-align: center;
+  background-color: #188fa7;
+  color: #fbf5f3;
+}
+
+/* Centers the image */
+img {
+  margin-top: 115px; /* using pixels for exact spacing in mobile mode */
+  margin-bottom: 3%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  width: 20%;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+/* Specifies the navigation menu font and alignment */
+nav {
+  font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+nav a {
+  text-decoration: none;
+}
+
+/* Specifies link actions */
+a:link, a:active, a:visited {
+  color: #5b3000;
+}
+a:hover {
+  color: #87bb77;
+}
+
+/* ------------ALL SECTIONS------------- */
+/* Creates space before each new section */
+.new-section {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+/* Specifies font size, color, and alignment for each section header */
+.section-header {
+  padding-top: 10px;
+  font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+  font-size: 28px;
+  color: #188fa7;
+  border-top: 1px dashed #0a122a;
+  scroll-margin-top: 500em;
+}
+
+/* Specifies font in each section */
+p, ul {
+  font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+  font-size: 17px;
+  color: #0a122a;
+  line-height: 1.2;
+}
+
+/* ---------CONTACT SECTION--------- */
+/* Lessens weight of bolded elements */
+strong {
+  font-weight: 600;
+}
+
+/* ---------EDUCATION SECTION---------- */
+/* Changes font of emphasized elements */
+em {
+  font-family: Bookman, URW Bookman L, serif;
+  font-size: 14px;
+}
+
+/* ---------EXPERIENCE SECTION---------- */
+/* Specifies font strength and color of company names */
+.company-name {
+  font-weight: 600;
+  color: #0a122a;
+}
+
+/* Changes list item bullet points */
+ul {
+  list-style-type: circle;
+}
+
+/* -------SKILLS/RELEVANT COURSEWORK SECTIONS------ */
+/* Removes bullet points from list items */
+.list-style ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+/* Makes the skills and relevant coursework sections adjacent and adds padding to bottom of the page */
+.adjacent-sections {
+  float: left;
+  width: 50%;
+  padding-bottom: 30px;
+}
