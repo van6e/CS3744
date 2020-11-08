@@ -2,4 +2,4 @@
 
 ## [Project 2: A Stylish Resume](https://van6e.github.io/CS3744/p2.html)
 
-## [Project 3: To-Do List](https://van6e.github.io/CS3722/index.html)
+## [Project 3: To-Do List](https://van6e.github.io/CS3722/index.js)
